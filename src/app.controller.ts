@@ -1,5 +1,6 @@
 import { Controller, Get, Post } from '@nestjs/common';
 import { AppService } from './app.service';
+import { Product } from './interfaces/product.model';
 
 @Controller('api')
 export class AppController {
@@ -10,7 +11,7 @@ export class AppController {
     return this.appService.getHello();
   }
   @Post()
-  receivedProducts(): string {
+  receivedProducts(): Product[] {
     return this.appService.receivedProducts();
   }
 }
