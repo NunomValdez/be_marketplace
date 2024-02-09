@@ -1,11 +1,14 @@
 {
+  "version": "0.2.0",
   "configurations": [
     {
-      "name": "Docker Node.js Launch",
-      "type": "docker",
+      "name": "Launch NestJS App",
+      "type": "node",
       "request": "launch",
-      "preLaunchTask": "docker-run: debug",
-      "platform": "node"
+      "runtimeArgs": ["-r", "ts-node/register"],
+      "args": ["${workspaceFolder}/src/main.ts"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
     }
   ]
 }
