@@ -11,4 +11,8 @@ export class AppService {
   receivedProducts(): Product[] {
     return productsData.products;
   }
+
+  receivedInfoFromPostRequest() {
+    return console.log('cenas recebidas pelo frontend ');
+  }
 }

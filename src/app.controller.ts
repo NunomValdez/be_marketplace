@@ -1,4 +1,4 @@
-import { Controller, Get } from '@nestjs/common';
+import { Controller, Get, Post } from '@nestjs/common';
 import { AppService } from './app.service';
 import { Product } from './interfaces/product.model';
 
@@ -13,5 +13,9 @@ export class AppController {
   @Get('getProducts')
   receivedProducts(): Product[] {
     return this.appService.receivedProducts();
+  }
+  @Post('updateProdQuantity')
+  receivedInfoFromPostRequest(): void {
+    return this.appService.receivedInfoFromPostRequest();
   }
 }
