@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Milk",
       "price": 2.99,
-      "quantity": 100,
+      "stockQuantity": 100,
       "expirationDate": "2024-03-01",
       "imageUrl": "https://source.unsplash.com/random/200x200?milk"
     },
@@ -12,7 +12,7 @@
       "id": 2,
       "name": "Bread",
       "price": 1.50,
-      "quantity": 150,
+      "stockQuantity": 150,
       "expirationDate": "2024-02-18",
       "imageUrl": "https://source.unsplash.com/random/200x200?bread"
     },
@@ -20,7 +20,7 @@
       "id": 3,
       "name": "Apples",
       "price": 0.99,
-      "quantity": 200,
+      "stockQuantity": 200,
       "expirationDate": "2024-02-22",
       "imageUrl": "https://source.unsplash.com/random/200x200?apples"
     },
@@ -28,7 +28,7 @@
       "id": 4,
       "name": "Bananas",
       "price": 1.10,
-      "quantity": 180,
+      "stockQuantity": 180,
       "expirationDate": "2024-02-20",
       "imageUrl": "https://source.unsplash.com/random/200x200?bananas"
     },
@@ -36,7 +36,7 @@
       "id": 5,
       "name": "Tomatoes",
       "price": 2.20,
-      "quantity": 90,
+      "stockQuantity": 90,
       "expirationDate": "2024-02-25",
       "imageUrl": "https://source.unsplash.com/random/200x200?tomatoes"
     },
@@ -44,7 +44,7 @@
       "id": 6,
       "name": "Chicken Breast",
       "price": 5.00,
-      "quantity": 75,
+      "stockQuantity": 75,
       "expirationDate": "2024-03-05",
       "imageUrl": "https://source.unsplash.com/random/200x200?chicken"
     },
@@ -52,7 +52,7 @@
       "id": 7,
       "name": "Eggs",
       "price": 2.50,
-      "quantity": 200,
+      "stockQuantity": 200,
       "expirationDate": "2024-03-10",
       "imageUrl": "https://source.unsplash.com/random/200x200?eggs"
     },
@@ -60,7 +60,7 @@
       "id": 8,
       "name": "Cheddar Cheese",
       "price": 3.99,
-      "quantity": 80,
+      "stockQuantity": 80,
       "expirationDate": "2024-04-01",
       "imageUrl": "https://source.unsplash.com/random/200x200?cheese"
     },
@@ -68,7 +68,7 @@
       "id": 9,
       "name": "Butter",
       "price": 4.50,
-      "quantity": 95,
+      "stockQuantity": 95,
       "expirationDate": "2024-04-15",
       "imageUrl": "https://source.unsplash.com/random/200x200?butter"
     },
@@ -76,7 +76,7 @@
       "id": 10,
       "name": "Yogurt",
       "price": 0.99,
-      "quantity": 120,
+      "stockQuantity": 120,
       "expirationDate": "2024-03-20",
       "imageUrl": "https://source.unsplash.com/random/200x200?yogurt"
     },
@@ -84,7 +84,7 @@
       "id": 11,
       "name": "Orange Juice",
       "price": 3.00,
-      "quantity": 100,
+      "stockQuantity": 100,
       "expirationDate": "2024-03-15",
       "imageUrl": "https://source.unsplash.com/random/200x200?orange-juice"
     },
@@ -92,7 +92,7 @@
       "id": 12,
       "name": "Coffee",
       "price": 7.99,
-      "quantity": 60,
+      "stockQuantity": 60,
       "expirationDate": "2024-05-01",
       "imageUrl": "https://source.unsplash.com/random/200x200?coffee"
     },
@@ -100,7 +100,7 @@
       "id": 13,
       "name": "Tea",
       "price": 4.99,
-      "quantity": 80,
+      "stockQuantity": 80,
       "expirationDate": "2024-05-20",
       "imageUrl": "https://source.unsplash.com/random/200x200?tea"
     },
@@ -108,7 +108,7 @@
       "id": 14,
       "name": "Chocolate",
       "price": 1.99,
-      "quantity": 150,
+      "stockQuantity": 150,
       "expirationDate": "2024-06-01",
       "imageUrl": "https://source.unsplash.com/random/200x200?chocolate"
     },
@@ -116,7 +116,7 @@
       "id": 15,
       "name": "Pasta",
       "price": 1.30,
-      "quantity": 110,
+      "stockQuantity": 110,
       "expirationDate": "2024-07-01",
       "imageUrl": "https://source.unsplash.com/random/200x200?pasta"
     },
@@ -124,7 +124,7 @@
       "id": 16,
       "name": "Rice",
       "price": 2.00,
-      "quantity": 90,
+      "stockQuantity": 90,
       "expirationDate": "2024-08-01",
       "imageUrl": "https://source.unsplash.com/random/200x200?rice"
     },
@@ -132,7 +132,7 @@
       "id": 17,
       "name": "Cereal",
       "price": 3.50,
-      "quantity": 85,
+      "stockQuantity": 85,
       "expirationDate": "2024-09-01",
       "imageUrl": "https://source.unsplash.com/random/200x200?cereal"
     },
@@ -140,7 +140,7 @@
       "id": 18,
       "name": "Potatoes",
       "price": 0.75,
-      "quantity": 150,
+      "stockQuantity": 150,
       "expirationDate": "2024-02-28",
       "imageUrl": "https://source.unsplash.com/random/200x200?potatoes"
     },
@@ -148,7 +148,7 @@
       "id": 19,
       "name": "Onions",
       "price": 0.60,
-      "quantity": 130,
+      "stockQuantity": 130,
       "expirationDate": "2024-03-05",
       "imageUrl": "https://source.unsplash.com/random/200x200?onions"
     },
@@ -156,7 +156,7 @@
       "id": 20,
       "name": "Garlic",
       "price": 0.50,
-      "quantity": 100,
+      "stockQuantity": 100,
       "expirationDate": "2024-03-10",
       "imageUrl": "https://source.unsplash.com/random/200x200?garlic"
     }
