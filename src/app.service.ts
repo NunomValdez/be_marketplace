@@ -12,7 +12,15 @@ export class AppService {
     return productsData.products;
   }
 
-  receivedInfoFromPostRequest() {
-    return console.log('cenas recebidas pelo frontend ');
+  receivedInfoFromPostRequest(product: Product[]) {
+    console.log(product, ' this was received from the client');
+    const listOfProductsToBuy = product.map((prod) => {
+      return {
+        product: prod.name,
+        price: prod.price * prod.quantityToBuy,
+        quantity: prod.quantityToBuy,
+      };
+    });
+    return listOfProductsToBuy;
   }
 }

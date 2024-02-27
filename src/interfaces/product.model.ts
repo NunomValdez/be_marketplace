@@ -5,4 +5,5 @@ export interface Product {
   stockQuantity: number;
   expirationDate: string;
   imageUrl: string;
+  quantityToBuy?: number;
 }
